@@ -1,0 +1,265 @@
+go: downloading github.com/labstack/echo/v4 v4.6.3
+go: downloading github.com/jinzhu/configor v1.2.1
+go: downloading gopkg.in/boj/redistore.v1 v1.0.0-20160128113310-fc113767cd6b
+go: downloading github.com/gorilla/sessions v1.2.1
+go: downloading gorm.io/driver/postgres v1.2.3
+go: downloading github.com/swaggo/echo-swagger v1.1.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading github.com/swaggo/swag v1.7.8
+go: downloading gorm.io/gorm v1.22.5
+go: downloading github.com/valyala/fasttemplate v1.2.1
+go: downloading gopkg.in/go-playground/validator.v9 v9.31.0
+go: downloading gorm.io/driver/mysql v1.2.3
+go: downloading gorm.io/driver/sqlite v1.2.6
+go: downloading github.com/labstack/echo-contrib v0.11.0
+go: downloading golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce
+go: downloading go.uber.org/zap v1.20.0
+go: downloading gopkg.in/natefinch/lumberjack.v2 v2.0.0
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/jackc/pgx/v4 v4.14.1
+go: downloading github.com/garyburd/redigo v1.6.3
+go: downloading github.com/gorilla/securecookie v1.1.1
+go: downloading github.com/valyala/bytebufferpool v1.0.0
+go: downloading github.com/BurntSushi/toml v1.0.0
+go: downloading github.com/mattn/go-sqlite3 v2.0.3+incompatible
+go: downloading github.com/go-sql-driver/mysql v1.6.0
+go: downloading github.com/swaggo/files v0.0.0-20210815190702-a29dd2bc99b2
+go: downloading github.com/gorilla/context v1.1.1
+go: downloading github.com/jinzhu/inflection v1.0.0
+go: downloading github.com/jinzhu/now v1.1.4
+go: downloading github.com/leodido/go-urn v1.2.1
+go: downloading github.com/go-playground/universal-translator v0.18.0
+go: downloading golang.org/x/net v0.0.0-20220114011407-0dd24b26b47d
+go: downloading github.com/labstack/gommon v0.3.1
+go: downloading github.com/golang-jwt/jwt v3.2.2+incompatible
+go: downloading golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11
+go: downloading github.com/jackc/pgtype v1.9.1
+go: downloading github.com/jackc/pgconn v1.10.1
+go: downloading github.com/jackc/pgio v1.0.0
+go: downloading github.com/jackc/pgproto3/v2 v2.2.0
+go: downloading github.com/go-playground/locales v0.14.0
+go: downloading go.uber.org/atomic v1.9.0
+go: downloading go.uber.org/multierr v1.7.0
+go: downloading github.com/KyleBanks/depth v1.2.1
+go: downloading github.com/jackc/pgpassfile v1.0.0
+go: downloading github.com/jackc/chunkreader/v2 v2.0.1
+go: downloading golang.org/x/tools v0.1.8
+go: downloading github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+go: downloading golang.org/x/text v0.3.7
+go: downloading github.com/go-openapi/spec v0.20.4
+go: downloading github.com/mattn/go-isatty v0.0.14
+go: downloading github.com/mattn/go-colorable v0.1.12
+go: downloading golang.org/x/sys v0.0.0-20220114195835-da31bd327af9
+go: downloading github.com/go-openapi/swag v0.19.15
+go: downloading github.com/go-openapi/jsonreference v0.19.6
+go: downloading github.com/go-openapi/jsonpointer v0.19.5
+go: downloading github.com/PuerkitoBio/purell v1.1.1
+go: downloading github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/josharian/intern v1.0.0
+2023-03-01T09:06:48.207Z	INFO	logger/logger.go:45	Success to read zap logger configuration: zaplogger.develop.yml
+2023-03-01T09:06:48.210Z	INFO	go-app/main.go:28	Loaded this configuration : application.develop.yml
+2023-03-01T09:06:48.211Z	INFO	repository/repository.go:50	Try database connection
+2023-03-01T09:06:48.212Z	INFO	repository/repository.go:56	Success database connection, book.db:
+2023-03-01T09:06:48.212Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:06:48.212Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `book`
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `category_master`
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `format_master`
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `account_master`
+2023-03-01T09:06:48.213Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:06:48.214Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `authority_master`
+2023-03-01T09:06:48.214Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="format_master"
+2023-03-01T09:06:48.221Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `format_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:06:48.221Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="category_master"
+2023-03-01T09:06:48.258Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `category_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:06:48.259Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="book"
+2023-03-01T09:06:48.266Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `book` (`id` integer,`title` text,`isbn` text,`category_id` integer,`format_id` integer,PRIMARY KEY (`id`),CONSTRAINT `fk_book_category` FOREIGN KEY (`category_id`) REFERENCES `category_master`(`id`),CONSTRAINT `fk_book_format` FOREIGN KEY (`format_id`) REFERENCES `format_master`(`id`))
+2023-03-01T09:06:48.266Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="category_master"
+2023-03-01T09:06:48.266Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `category_master` LIMIT 1
+2023-03-01T09:06:48.266Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="format_master"
+2023-03-01T09:06:48.266Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `format_master` LIMIT 1
+2023-03-01T09:06:48.266Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="authority_master"
+2023-03-01T09:06:48.273Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `authority_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:06:48.273Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="account_master"
+2023-03-01T09:06:48.357Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `account_master` (`id` integer,`name` text,`password` text,`authority_id` integer,PRIMARY KEY (`id`),CONSTRAINT `fk_account_master_authority` FOREIGN KEY (`authority_id`) REFERENCES `authority_master`(`id`))
+2023-03-01T09:06:48.357Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="authority_master"
+2023-03-01T09:06:48.358Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `authority_master` LIMIT 1
+2023-03-01T09:06:48.368Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `authority_master` (`name`) VALUES ("Admin")
+2023-03-01T09:06:48.440Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `account_master` (`name`,`password`,`authority_id`) VALUES ("test","$2a$10$RWdzlOYUhMze4ZLsySI2quq4BaaXHZ5vLSpY1I3UJ9nleJ6FTqgQ6",1)
+2023-03-01T09:06:48.444Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Technical Book")
+2023-03-01T09:06:48.449Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Magazine")
+2023-03-01T09:06:48.457Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Novel")
+2023-03-01T09:06:48.466Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `format_master` (`name`) VALUES ("Paper Book")
+2023-03-01T09:06:48.475Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `format_master` (`name`) VALUES ("e-Book")
+2023-03-01T09:06:48.539Z	INFO	go-app/main.go:42	Served the static contents. path: ./public/
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.6.3
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8081
+signal: interrupt
+2023-03-01T09:07:37.229Z	INFO	logger/logger.go:45	Success to read zap logger configuration: zaplogger.develop.yml
+2023-03-01T09:07:37.232Z	INFO	go-app/main.go:28	Loaded this configuration : application.develop.yml
+2023-03-01T09:07:37.232Z	INFO	repository/repository.go:50	Try database connection
+2023-03-01T09:07:37.233Z	INFO	repository/repository.go:56	Success database connection, book.db:
+2023-03-01T09:07:37.233Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:07:37.237Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `book`
+2023-03-01T09:07:37.237Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:07:37.241Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `category_master`
+2023-03-01T09:07:37.241Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:07:37.244Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `format_master`
+2023-03-01T09:07:37.245Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:07:37.249Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `account_master`
+2023-03-01T09:07:37.249Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:07:37.255Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `authority_master`
+2023-03-01T09:07:37.255Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="category_master"
+2023-03-01T09:07:37.258Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `category_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:07:37.259Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="format_master"
+2023-03-01T09:07:37.263Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `format_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:07:37.263Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="book"
+2023-03-01T09:07:37.267Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `book` (`id` integer,`title` text,`isbn` text,`category_id` integer,`format_id` integer,PRIMARY KEY (`id`),CONSTRAINT `fk_book_category` FOREIGN KEY (`category_id`) REFERENCES `category_master`(`id`),CONSTRAINT `fk_book_format` FOREIGN KEY (`format_id`) REFERENCES `format_master`(`id`))
+2023-03-01T09:07:37.267Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="category_master"
+2023-03-01T09:07:37.267Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `category_master` LIMIT 1
+2023-03-01T09:07:37.267Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="format_master"
+2023-03-01T09:07:37.267Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `format_master` LIMIT 1
+2023-03-01T09:07:37.267Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="authority_master"
+2023-03-01T09:07:37.271Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `authority_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:07:37.271Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="account_master"
+2023-03-01T09:07:37.275Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `account_master` (`id` integer,`name` text,`password` text,`authority_id` integer,PRIMARY KEY (`id`),CONSTRAINT `fk_account_master_authority` FOREIGN KEY (`authority_id`) REFERENCES `authority_master`(`id`))
+2023-03-01T09:07:37.275Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="authority_master"
+2023-03-01T09:07:37.275Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `authority_master` LIMIT 1
+2023-03-01T09:07:37.278Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `authority_master` (`name`) VALUES ("Admin")
+2023-03-01T09:07:37.346Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `account_master` (`name`,`password`,`authority_id`) VALUES ("test","$2a$10$jE7X405M4m84HGeR0Wc.s.h.R5kGR3ixdqeXqMdrmFDC6AWKZLccm",1)
+2023-03-01T09:07:37.351Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Technical Book")
+2023-03-01T09:07:37.354Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Magazine")
+2023-03-01T09:07:37.358Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Novel")
+2023-03-01T09:07:37.362Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `format_master` (`name`) VALUES ("Paper Book")
+2023-03-01T09:07:37.366Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `format_master` (`name`) VALUES ("e-Book")
+2023-03-01T09:07:37.429Z	INFO	go-app/main.go:42	Served the static contents. path: ./public/
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.6.3
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8081
+2023-03-01T09:08:15.994Z	INFO	logger/logger.go:45	Success to read zap logger configuration: zaplogger.develop.yml
+2023-03-01T09:08:15.995Z	INFO	go-app/main.go:28	Loaded this configuration : application.develop.yml
+2023-03-01T09:08:15.996Z	INFO	repository/repository.go:50	Try database connection
+2023-03-01T09:08:15.996Z	INFO	repository/repository.go:56	Success database connection, book.db:
+2023-03-01T09:08:15.996Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:08:16.001Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `book`
+2023-03-01T09:08:16.002Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:08:16.005Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `category_master`
+2023-03-01T09:08:16.006Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:08:16.009Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `format_master`
+2023-03-01T09:08:16.009Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:08:16.014Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `account_master`
+2023-03-01T09:08:16.014Z	DEBUG	logger/gormlogger.go:58	[gorm] PRAGMA foreign_keys
+2023-03-01T09:08:16.019Z	DEBUG	logger/gormlogger.go:58	[gorm] DROP TABLE IF EXISTS `authority_master`
+2023-03-01T09:08:16.020Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="category_master"
+2023-03-01T09:08:16.025Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `category_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:08:16.025Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="format_master"
+2023-03-01T09:08:16.031Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `format_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:08:16.031Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="book"
+2023-03-01T09:08:16.039Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `book` (`id` integer,`title` text,`isbn` text,`category_id` integer,`format_id` integer,PRIMARY KEY (`id`),CONSTRAINT `fk_book_category` FOREIGN KEY (`category_id`) REFERENCES `category_master`(`id`),CONSTRAINT `fk_book_format` FOREIGN KEY (`format_id`) REFERENCES `format_master`(`id`))
+2023-03-01T09:08:16.039Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="category_master"
+2023-03-01T09:08:16.039Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `category_master` LIMIT 1
+2023-03-01T09:08:16.039Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="format_master"
+2023-03-01T09:08:16.039Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `format_master` LIMIT 1
+2023-03-01T09:08:16.039Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="authority_master"
+2023-03-01T09:08:16.045Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `authority_master` (`id` integer,`name` text,PRIMARY KEY (`id`))
+2023-03-01T09:08:16.045Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="account_master"
+2023-03-01T09:08:16.050Z	DEBUG	logger/gormlogger.go:58	[gorm] CREATE TABLE `account_master` (`id` integer,`name` text,`password` text,`authority_id` integer,PRIMARY KEY (`id`),CONSTRAINT `fk_account_master_authority` FOREIGN KEY (`authority_id`) REFERENCES `authority_master`(`id`))
+2023-03-01T09:08:16.051Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT count(*) FROM sqlite_master WHERE type='table' AND name="authority_master"
+2023-03-01T09:08:16.051Z	DEBUG	logger/gormlogger.go:58	[gorm] SELECT * FROM `authority_master` LIMIT 1
+2023-03-01T09:08:16.057Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `authority_master` (`name`) VALUES ("Admin")
+2023-03-01T09:08:16.128Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `account_master` (`name`,`password`,`authority_id`) VALUES ("test","$2a$10$uj40cie8K28ZpGREvT8XO.KqYYNp4ISAlTgJ9o.BZYdCis7NXMTi6",1)
+2023-03-01T09:08:16.132Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Technical Book")
+2023-03-01T09:08:16.136Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Magazine")
+2023-03-01T09:08:16.139Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `category_master` (`name`) VALUES ("Novel")
+2023-03-01T09:08:16.142Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `format_master` (`name`) VALUES ("Paper Book")
+2023-03-01T09:08:16.146Z	DEBUG	logger/gormlogger.go:58	[gorm] INSERT INTO `format_master` (`name`) VALUES ("e-Book")
+2023-03-01T09:08:16.211Z	INFO	go-app/main.go:42	Served the static contents. path: ./public/
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.6.3
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+2023-03-01T09:08:16.212Z	ERROR	go-app/main.go:46	listen tcp :8081: bind: address already in use
+main.main
+	/home/bob/go-app/main.go:46
+runtime.main
+	/usr/lib/golang/src/runtime/proc.go:255
+2023-03-01T09:08:44.163Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:08:44.168Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:08:44.168Z	INFO	middleware/middleware.go:77	127.0.0.1 None / GET 200
+2023-03-01T09:10:48.666Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:48.667Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:48.667Z	INFO	middleware/middleware.go:77	197.0.38.65 None / GET 200
+2023-03-01T09:10:49.119Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:49.119Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:49.119Z	INFO	middleware/middleware.go:77	197.0.38.65 None /js/app.dbc5a974.js GET 200
+2023-03-01T09:10:49.120Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:49.120Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:49.120Z	INFO	middleware/middleware.go:77	197.0.38.65 None /js/chunk-vendors.0cedba66.js GET 200
+2023-03-01T09:10:49.122Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:49.122Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:49.122Z	INFO	middleware/middleware.go:77	197.0.38.65 None /css/chunk-vendors.533831d3.css GET 200
+2023-03-01T09:10:49.124Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:49.124Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:49.124Z	INFO	middleware/middleware.go:77	197.0.38.65 None /css/app.750b60b0.css GET 200
+2023-03-01T09:10:50.383Z	DEBUG	middleware/middleware.go:89	/api/auth/loginStatus Action Start
+2023-03-01T09:10:50.384Z	DEBUG	middleware/middleware.go:93	/api/auth/loginStatus Action End
+2023-03-01T09:10:50.384Z	INFO	middleware/middleware.go:77	197.0.38.65 None /api/auth/loginStatus GET 401
+2023-03-01T09:10:50.444Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:50.444Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:50.444Z	INFO	middleware/middleware.go:77	197.0.38.65 None /img/icons/favicon-32x32.png GET 200
+2023-03-01T09:10:50.480Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:50.480Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:50.480Z	INFO	middleware/middleware.go:77	197.0.38.65 None /service-worker.js GET 200
+2023-03-01T09:10:50.580Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:50.581Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:50.581Z	INFO	middleware/middleware.go:77	197.0.38.65 None /manifest.json GET 200
+2023-03-01T09:10:50.800Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:50.801Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:50.801Z	INFO	middleware/middleware.go:77	197.0.38.65 None /img/icons/android-chrome-192x192.png GET 200
+2023-03-01T09:10:50.998Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:50.998Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:50.998Z	INFO	middleware/middleware.go:77	197.0.38.65 None /precache-manifest.dc8b87b53105db6a74f870e12b57d53e.js GET 200
+2023-03-01T09:10:51.540Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:51.540Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:51.540Z	INFO	middleware/middleware.go:77	197.0.38.65 None /css/app.750b60b0.css?__WB_REVISION__=5ffc48740fb393fd88a6 GET 200
+2023-03-01T09:10:51.575Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:51.576Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:51.576Z	INFO	middleware/middleware.go:77	197.0.38.65 None /css/chunk-vendors.533831d3.css?__WB_REVISION__=3938617ccce9761852ce GET 200
+2023-03-01T09:10:51.585Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:51.585Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:51.585Z	INFO	middleware/middleware.go:77	197.0.38.65 None /index.html?__WB_REVISION__=83ab9357d4c1f5a206c0aff3a16cff0b GET 200
+2023-03-01T09:10:51.754Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:51.754Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:51.754Z	INFO	middleware/middleware.go:77	197.0.38.65 None /js/app.dbc5a974.js?__WB_REVISION__=5ffc48740fb393fd88a6 GET 200
+2023-03-01T09:10:51.850Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:51.851Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:51.851Z	INFO	middleware/middleware.go:77	197.0.38.65 None /js/chunk-vendors.0cedba66.js?__WB_REVISION__=3938617ccce9761852ce GET 200
+2023-03-01T09:10:52.002Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:52.002Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:52.002Z	INFO	middleware/middleware.go:77	197.0.38.65 None /manifest.json?__WB_REVISION__=30a1780d264c79567fae09fac31b3072 GET 200
+2023-03-01T09:10:52.045Z	DEBUG	middleware/middleware.go:89	/* Action Start
+2023-03-01T09:10:52.045Z	DEBUG	middleware/middleware.go:93	/* Action End
+2023-03-01T09:10:52.045Z	INFO	middleware/middleware.go:77	197.0.38.65 None /robots.txt?__WB_REVISION__=735ab4f94fbcd57074377afca324c813 GET 200
